@@ -1,4 +1,4 @@
-package main.java.entity;
+﻿package main.java.entity;
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
@@ -11,7 +11,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class DevUser {
-    @Min(6)
+    @Min(7)
     @Max(10)
     private Integer id;//主键id
     @NotEmpty(message="用户名不能为空")
