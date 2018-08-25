@@ -1,4 +1,4 @@
-﻿package main.java.entity;
+﻿package main.java.entity;1
 
 import org.hibernate.validator.constraints.Length;
 import org.hibernate.validator.constraints.NotEmpty;
