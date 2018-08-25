@@ -13,9 +13,9 @@ import java.util.Date;
 public class DevUser {
     @Min(7)
     @Max(10)
-    private Integer id;//主键id
+    private Integer id;
     @NotEmpty(message="用户名不能为空")
-    private String devCode;//开发者帐号(系统登录账号)
+    private String devCode;//开发者帐号(系统登录账号)11
     private String devName;//开发者名称
     private String devPassword;//开发者密码
     private String devEmail;//开发者邮箱
